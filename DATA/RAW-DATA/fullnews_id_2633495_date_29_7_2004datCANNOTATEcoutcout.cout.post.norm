@@ -1,0 +1,384 @@
+
+
+<document id="2633495">
+<head>
+<title></title>
+<caption>भारत-नेपाल सीमा सील करने के आदेश        आईएएनएस   : पटना</caption>
+<language>Hindi </language>
+<author>
+<firstname></firstname>
+<middlename></middlename>
+<lastname></lastname>
+</author>
+<creation>
+<raw_corpus creation_date="" institute_name=""></raw_corpus>
+<annotated_corpus creation_date="04/05/2010" institute_name="IIIT-Hyderabad"></annotated_corpus>
+</creation>
+<domain_name>News Articles </domain_name>
+<distributor>LTRC, IIIT Hyderabad</distributor>
+<source>ISI, Kolkata</source>
+<publication>
+<place>New Delhi</place>
+<date>29/7/2004</date>
+<address>Connaught Place, New Delhi</address>
+<type>Newspaper</type>
+<publisher>
+<name>Amar Ujala</name>
+<url>http://www.amarujala.com</url>
+</publisher>
+</publication>
+<project_description>NSF Hindi/Urdu Dependency Treebanking Project</project_description>
+<availability>
+<format>CML/SSF</format>
+</availability>
+<byte_count>7569</byte_count>
+<word_count>276</word_count>
+<edition_number>1.0</edition_number>
+<encoding_description>
+<original_encoding>ISO 8859</original_encoding>
+<new_encoding>Unicode UTF8</new_encoding>
+</encoding_description>
+<bibliography></bibliography>
+<sentence_marker>.</sentence_marker>
+<normalization>No</normalization>
+<utility_name>cml_tags</utility_name>
+
+
+</head>
+<body>
+<tb number="1" segment="no" bullet="no">
+<foreign language="select" writingsystem="LTR"> </foreign>
+<text>
+<Sentence id="1">
+1	बिहार	NNP	<fs af='बिहार,n,m,sg,3,o,0_में,0' drel='k7:होने' posn='10' vpos='vib_2' name='बिहार' chunkId='NP' chunkType='head:NP' cref='i1%1:t1' crefHead='बिहार:i1' crefChainHead='i1:t1' >
+2	में	PSP	<fs af='में,psp,,,,,,' posn='20' drel='lwg__psp:बिहार' chunkType='child:NP' name='में'>
+3	13	NNPC	<fs af='13,n,any,sg,3,d,0,0' posn='30' drel='pof__cn:नवंबर' chunkType='child:NP2' name='13'>
+4	नवंबर	NNP	<fs af='नवंबर,n,m,sg,3,o,0_को,0' drel='k7t:होने' posn='40' vpos='vib_3' name='नवंबर' chunkId='NP2' chunkType='head:NP2'>
+5	को	PSP	<fs af='को,psp,,,,,,' posn='50' drel='lwg__psp:नवंबर' chunkType='child:NP2' name='को'>
+6	होने	VM	<fs af='हो,v,any,sg,any,o,ना_वाला,nA' drel='nmod:चरण' posn='60' vpos='tam_2' name='होने' chunkId='VGNN' chunkType='head:VGNN'>
+7	वाले	PSP	<fs af='वाला,psp,m,sg,,o,,' posn='70' drel='lwg__psp:होने' chunkType='child:VGNN' name='वाले'>
+8	तीसरे	QO	<fs af='तीसरा,num,m,sg,,o,,' posn='80' drel='nmod__adj:चरण' chunkType='child:NP3' name='तीसरे' acrefMod='m1%0:i2'>
+9	चरण	NN	<fs af='चरण,n,m,sg,3,o,0_का,0' drel='r6:चुनाव' posn='90' vpos='vib_3' name='चरण' chunkId='NP3' chunkType='head:NP3' acrefMod='m1%1:i2' acrefModHead='चरण:m1'>
+10	के	PSP	<fs af='का,psp,m,sg,,o,,' posn='100' drel='lwg__psp:चरण' chunkType='child:NP3' name='के'>
+11	चुनाव	NN	<fs af='चुनाव,n,m,sg,3,o,0_के_मद्देनज़र,0' drel='k7a:दिया' posn='110' vpos='vib_2_3' name='चुनाव' chunkId='NP4' chunkType='head:NP4' cref='i2%1:t2' crefHead='चुनाव:i2' crefChainHead='i2:t2'  crefMod='m1:i2'>
+12	के	PSP	<fs af='के,psp,,,,,,' posn='120' drel='lwg__psp:चुनाव' chunkType='child:NP4' name='के2'>
+13	मद्देनज़र	PSP	<fs af='मद्देनज़र,psp,,,,,,' posn='130' drel='lwg__psp:चुनाव' chunkType='child:NP4' name='मद्देनज़र'>
+14	माओवादी	JJ	<fs af='माओवादी,adj,any,any,,o,,' posn='140' drel='nmod__adj:छापामारों' chunkType='child:NP5' name='माओवादी' cref='i3%0:t3'>
+15	छापामारों	NN	<fs af='छापामार,n,m,pl,3,o,0_का,0' drel='r6:धमकियों' posn='150' vpos='vib_3' name='छापामारों' chunkId='NP5' chunkType='head:NP5' cref='i3%1:t3' crefHead='छापामारों:i3'>
+16	की	PSP	<fs af='का,psp,f,pl,,o,,' posn='160' drel='lwg__psp:छापामारों' chunkType='child:NP5' name='की'>
+17	धमकियों	NN	<fs af='धमकी,n,f,pl,3,o,0_को,0' drel='k2:देखते' posn='170' vpos='vib_2' name='धमकियों' chunkId='NP6' chunkType='head:NP6'>
+18	को	PSP	<fs af='को,psp,,,,,,' posn='180' drel='lwg__psp:धमकियों' chunkType='child:NP6' name='को2'>
+19	देखते	VM	<fs af='देख,v,m,pl,any,,ता_हो+या,wA' drel='vmod:दिया' posn='190' vpos='tam_2' name='देखते' chunkId='VGNF' chunkType='head:VGNF'>
+20	हुए	VAUX	<fs af='हो,v,m,pl,any,,या,yA' posn='200' drel='lwg__vaux:देखते' chunkType='child:VGNF' name='हुए'>
+21	नेपाल	NNP	<fs af='नेपाल,n,m,sg,3,o,0,0' drel='ccof:और' posn='210' name='नेपाल' chunkId='NP7' chunkType='head:NP7' cref='i4%1:t4' crefHead='नेपाल:i4' crefChainHead='i4:t4' >
+22	,	SYM	<fs af='COMMA,punc,,,,,,' posn='220' drel='rsym:नेपाल' chunkType='child:NP7' name=','>
+23	पश्चिम	NNPC	<fs af='पश्चिम,n,m,sg,3,d,0,0' posn='230' drel='pof__cn:बंगाल' chunkType='child:NP8' name='पश्चिम'>
+24	बंगाल	NNP	<fs af='बंगाल,n,m,sg,3,o,0,0' drel='ccof:और' posn='240' name='बंगाल' chunkId='NP8' chunkType='head:NP8'>
+25	और	CC	<fs af='और,avy,,,,,,' drel='k2:लगी' posn='250' name='और' chunkId='CCP' chunkType='head:CCP'>
+26	उत्तर	NNPC	<fs af='उत्तर,n,m,sg,3,d,0,0' posn='260' drel='pof__cn:प्रदेश' chunkType='child:NP9' name='उत्तर'>
+27	प्रदेश	NNP	<fs af='प्रदेश,n,m,sg,3,o,0_से,0' drel='ccof:और' posn='270' vpos='vib_3' name='प्रदेश' chunkId='NP9' chunkType='head:NP9'>
+28	से	PSP	<fs af='से,psp,,,,,,' posn='280' drel='lwg__psp:प्रदेश' chunkType='child:NP9' name='से'>
+29	लगी	VM	<fs af='लग,v,f,pl,any,,या,yA' drel='nmod__k1inv:सीमाओं' posn='290' name='लगी' chunkId='VGNF2' chunkType='head:VGNF2'>
+30	सीमाओं	NN	<fs af='सीमा,n,f,pl,3,o,0_को,0' drel='k2:करने' posn='300' vpos='vib_2' name='सीमाओं' chunkId='NP10' chunkType='head:NP10'>
+31	को	PSP	<fs af='को,psp,,,,,,' posn='310' drel='lwg__psp:सीमाओं' chunkType='child:NP10' name='को3'>
+32	सील	NN	<fs af='सील,n,m,sg,3,d,0,0' drel='pof:करने' posn='320' name='सील' chunkId='NP11' chunkType='head:NP11'>
+33	करने	VM	<fs af='कर,v,any,sg,any,o,ना_का,nA' drel='r6-k2:आदेश' posn='330' vpos='tam_2' name='करने' chunkId='VGNN2' chunkType='head:VGNN2'>
+34	का	PSP	<fs af='का,psp,m,sg,,d,,' posn='340' drel='lwg__psp:करने' chunkType='child:VGNN2' name='का'>
+35	आदेश	NN	<fs af='आदेश,n,m,sg,3,d,0,0' drel='pof:दिया' posn='350' name='आदेश' chunkId='NP12' chunkType='head:NP12'>
+36	दिया	VM	<fs af='दे,v,m,sg,3,,या_जा+या1_है,yA' stype='declarative' posn='360' voicetype='active' vpos='tam_2_3' name='दिया' chunkId='VGF' chunkType='head:VGF'>
+37	गया	VAUX	<fs af='जा,v,m,sg,any,,या1,yA1' posn='370' drel='lwg__vaux:दिया' chunkType='child:VGF' name='गया'>
+38	है	VAUX	<fs af='है,v,any,sg,3,,है,hE' posn='380' drel='lwg__vaux:दिया' chunkType='child:VGF' name='है'>
+39	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:दिया' posn='390' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="2">
+1	बिहार	NNP	<fs af='बिहार,n,m,sg,3,d,0,0' posn='10' drel='nmod__adj:विधानसभा' chunkType='child:NP' name='बिहार' cref='i5%1:t1' crefHead='बिहार:i5' crefType='Coreference-Identity:i1'>
+2	विधानसभा	NN	<fs af='विधानसभा,n,f,sg,3,o,0_का,0' drel='r6:चरणों' posn='20' vpos='vib_vib_3' name='विधानसभा' chunkId='NP' chunkType='head:NP'>
+3	के	PSP	<fs af='का,psp,m,pl,,o,,' posn='30' drel='lwg__psp:विधानसभा' chunkType='child:NP' name='के'>
+4	दो	QC	<fs af='दो,num,any,any,,any,,' posn='40' drel='nmod__adj:चरणों' chunkType='child:NP2' name='दो'>
+5	चरणों	NN	<fs af='चरण,n,m,pl,3,o,0_का,0' drel='r6:चुनाव' posn='50' vpos='vib_3' name='चरणों' chunkId='NP2' chunkType='head:NP2'>
+6	के	PSP	<fs af='का,psp,m,pl,,d,,' posn='60' drel='lwg__psp:चरणों' chunkType='child:NP2' name='के2'>
+7	चुनाव	NN	<fs af='चुनाव,n,m,pl,3,d,0,0' drel='k1:होने' posn='70' name='चुनाव' chunkId='NP3' chunkType='head:NP3'>
+8	शांतिपूर्ण	JJ	<fs af='शांतिपूर्ण,adj,any,any,,o,,' posn='80' drel='nmod__adj:ढंग' chunkType='child:NP4' name='शांतिपूर्ण'>
+9	ढंग	NN	<fs af='ढंग,n,m,sg,3,o,0_से,0' drel='adv:होने' posn='90' vpos='vib_3' name='ढंग' chunkId='NP4' chunkType='head:NP4'>
+10	से	PSP	<fs af='से,psp,,,,,,' posn='100' drel='lwg__psp:ढंग' chunkType='child:NP4' name='से'>
+11	सम्पन्न	JJ	<fs af='संपन्न,adj,any,any,,,,' drel='pof:होने' posn='110' name='सम्पन्न' chunkId='JJP' chunkType='head:JJP'>
+12	होने	VM	<fs af='हो,v,any,any,any,o,ना_से,nA' drel='jjmod:उत्साहित' posn='120' vpos='tam_2' name='होने' chunkId='VGNN' chunkType='head:VGNN'>
+13	से	PSP	<fs af='से,psp,,,,,,' posn='130' drel='lwg__psp:होने' chunkType='child:VGNN' name='से2'>
+14	उत्साहित	JJ	<fs af='उत्साहित,adj,any,any,,o,,' drel='nmod:आयुक्त' posn='140' name='उत्साहित' chunkId='JJP2' chunkType='head:JJP2'>
+15	मुख्य	JJ	<fs af='मुख्य,adj,any,any,,o,,' posn='150' drel='nmod__adj:आयुक्त' chunkType='child:NP5' name='मुख्य' cref='i6%0:t5'>
+16	चुनाव	NNC	<fs af='चुनाव,n,m,sg,3,d,0,0' posn='160' drel='pof__cn:आयुक्त' chunkType='child:NP5' name='चुनाव2' cref='i6%0:t5'>
+17	आयुक्त	NN	<fs af='आयुक्त,n,m,sg,3,o,0,0' drel='nmod:टंडन' posn='170' name='आयुक्त' chunkId='NP5' chunkType='head:NP5' cref='i6%1:t5' crefHead='आयुक्त:i6' >
+18	बी.	NNPC	<fs af='बी.,n,m,sg,3,d,0,0' posn='180' drel='pof__cn:टंडन' chunkType='child:NP6' name='बी.' cref='i7%0:t5'>
+19	बी.	NNPC	<fs af='बी.,n,m,sg,3,d,0,0' posn='190' drel='pof__cn:टंडन' chunkType='child:NP6' name='बी.2' cref='i7%0:t5'>
+20	टंडन	NNP	<fs af='टंडन,n,m,sg,3,o,0_ने,0' drel='k1:कहा' posn='200' vpos='vib_4' name='टंडन' chunkId='NP6' chunkType='head:NP6' cref='i7%1:t5' crefHead='टंडन:i7' crefChainHead='i7:t5' crefType='Coreference-NounComplement:i6'>
+21	ने	PSP	<fs af='ने,psp,,,,,,' posn='210' drel='lwg__psp:टंडन' chunkType='child:NP6' name='ने'>
+22	कहा	VM	<fs af='कह,v,m,sg,any,,या,yA' stype='declarative' posn='220' voicetype='active' name='कहा' chunkId='VGF' chunkType='head:VGF'>
+23	कि	CC	<fs af='कि,avy,,,,,,' drel='k2:कहा' posn='230' name='कि' chunkId='CCP' chunkType='head:CCP'>
+24	तीसरे	QO	<fs af='तीसरा,num,m,sg,,o,,' posn='240' drel='nmod__adj:चरण' chunkType='child:NP7' name='तीसरे' acrefMod='m2%0:i8'>
+25	चरण	NN	<fs af='चरण,n,m,sg,3,o,0_का,0' drel='r6:चुनाव3' posn='250' vpos='vib_3' name='चरण' chunkId='NP7' chunkType='head:NP7' acrefMod='m2%1:i8' acrefModHead='चरण:m2'>
+26	के	PSP	<fs af='का,psp,m,sg,,o,,' posn='260' drel='lwg__psp:चरण' chunkType='child:NP7' name='के3'>
+27	चुनाव	NN	<fs af='चुनाव,n,m,sg,3,o,0_के_दरम्यान,0' drel='k7t:करेगा' posn='270' vpos='vib_2_3' name='चुनाव3' chunkId='NP8' chunkType='head:NP8' cref='i8%1:t2' crefHead='चुनाव:i8' crefType='Coreference-Identity:i2' crefMod='m2:i8'>
+28	के	PSP	<fs af='के,psp,,,,,,' posn='280' drel='lwg__psp:चुनाव3' chunkType='child:NP8' name='के4'>
+29	दरम्यान	NST	<fs af='दरम्यान,nst,m,sg,3,d,,' posn='290' drel='lwg__psp:चुनाव3' chunkType='child:NP8' name='दरम्यान'>
+30	आयोग	NN	<fs af='आयोग,n,m,sg,3,d,0,0' drel='k1:करेगा' posn='300' name='आयोग' chunkId='NP9' chunkType='head:NP9' cref='i9%1:t6' crefHead='आयोग:i9' crefChainHead='i9:t6' >
+31	सुरक्षा	NN	<fs af='सुरक्षा,n,f,sg,3,o,0_का,0' drel='r6-k2:व्यवस्था' posn='310' vpos='vib_2' name='सुरक्षा' chunkId='NP10' chunkType='head:NP10'>
+32	की	PSP	<fs af='का,psp,f,sg,,d,,' posn='320' drel='lwg__psp:सुरक्षा' chunkType='child:NP10' name='की'>
+33	कड़ी	JJ	<fs af='कड़ा,adj,f,sg,,d,,' posn='330' drel='nmod__adj:व्यवस्था' chunkType='child:NP11' name='कड़ी'>
+34	व्यवस्था	NN	<fs af='व्यवस्था,n,f,sg,3,d,0,0' drel='pof:करेगा' posn='340' name='व्यवस्था' chunkId='NP11' chunkType='head:NP11'>
+35	करेगा	VM	<fs af='कर,v,m,sg,3,,गा,gA' drel='ccof:कि' stype='declarative' posn='350' voicetype='active' name='करेगा' chunkId='VGF2' chunkType='head:VGF2'>
+36	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:कहा' posn='360' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="3">
+1	तीसरे	QO	<fs af='तीसरा,num,m,sg,,o,,' posn='10' drel='nmod__adj:चरण' chunkType='child:NP' name='तीसरे'>
+2	चरण	NN	<fs af='चरण,n,m,sg,3,o,0_का,0' drel='r6:मतदान' posn='20' vpos='vib_3' name='चरण' chunkId='NP' chunkType='head:NP'>
+3	के	PSP	<fs af='का,psp,m,sg,,o,,' posn='30' drel='lwg__psp:चरण' chunkType='child:NP' name='के'>
+4	मतदान	NN	<fs af='मतदान,n,m,sg,3,o,0_के_दौरान,0' drel='k7t:सटे' posn='40' vpos='vib_2_3' name='मतदान' chunkId='NP2' chunkType='head:NP2'>
+5	के	PSP	<fs af='के,psp,,,,,,' posn='50' drel='lwg__psp:मतदान' chunkType='child:NP2' name='के2'>
+6	दौरान	NST	<fs af='दौरान,nst,m,sg,3,d,,' posn='60' drel='lwg__psp:मतदान' chunkType='child:NP2' name='दौरान'>
+7	नेपाल	NNP	<fs af='नेपाल,n,m,sg,3,o,0_से,0' drel='k2:सटे' posn='70' vpos='vib_2' name='नेपाल' chunkId='NP3' chunkType='head:NP3' cref='i10%1:t4,i11%0:t7' crefHead='नेपाल:i10' crefType='Coreference-Identity:i4'>
+8	से	PSP	<fs af='से,psp,,,,,,' posn='80' drel='lwg__psp:नेपाल' chunkType='child:NP3' name='से' cref='i11%0:t7'>
+9	सटे	VM	<fs af='सट,v,m,pl,any,,या,yA' drel='nmod__k1inv:क्षेत्रों' posn='90' name='सटे' chunkId='VGNF' chunkType='head:VGNF' cref='i11%0:t7'>
+10	विधानसभा	NNC	<fs af='विधानसभा,n,f,sg,3,d,0,0' posn='100' drel='pof__cn:क्षेत्रों' chunkType='child:NP4' name='विधानसभा' cref='i11%0:t7'>
+11	क्षेत्रों	NN	<fs af='क्षेत्र,n,m,pl,3,o,0_में,0' drel='k7p:जताई' posn='110' vpos='vib_3' name='क्षेत्रों' chunkId='NP4' chunkType='head:NP4' cref='i11%1:t7' crefHead='क्षेत्रों:i11' crefChainHead='i11:t7'>
+12	में	PSP	<fs af='में,psp,,,,,,' posn='120' drel='lwg__psp:क्षेत्रों' chunkType='child:NP4' name='में'>
+13	बड़े	JJ	<fs af='बड़ा,adj,m,sg,,o,,' posn='130' drel='nmod__adj:पैमाने' chunkType='child:NP5' name='बड़े'>
+14	पैमाने	NN	<fs af='पैमाना,n,m,sg,3,o,0_पर,0' drel='k7:जताई' posn='140' vpos='vib_3' name='पैमाने' chunkId='NP5' chunkType='head:NP5'>
+15	पर	PSP	<fs af='पर,psp,,,,,,' posn='150' drel='lwg__psp:पैमाने' chunkType='child:NP5' name='पर'>
+16	हिंसा	NN	<fs af='हिंसा,n,f,sg,3,o,0_का,0' drel='r6:आंशका' posn='160' vpos='vib_2' name='हिंसा' chunkId='NP6' chunkType='head:NP6'>
+17	की	PSP	<fs af='का,psp,f,sg,,d,,' posn='170' drel='lwg__psp:हिंसा' chunkType='child:NP6' name='की'>
+18	आंशका	NN	<fs af='आंशका,n,f,sg,3,d,0,0' drel='k2:जताई' posn='180' name='आंशका' chunkId='NP7' chunkType='head:NP7'>
+19	जताई	VM	<fs af='जता,v,f,sg,3,,या_जा_रह+या_है,yA' stype='declarative' posn='190' voicetype='passive' vpos='tam_2_3_4' name='जताई' chunkId='VGF' chunkType='head:VGF'>
+20	जा	VAUX	<fs af='जा,v,any,any,any,,0,0' posn='200' drel='lwg__vaux:जताई' chunkType='child:VGF' name='जा'>
+21	रही	VAUX	<fs af='रह,v,f,sg,any,,या,yA' posn='210' drel='lwg__vaux:जताई' chunkType='child:VGF' name='रही'>
+22	है	VAUX	<fs af='है,v,any,sg,3,,है,hE' posn='220' drel='lwg__vaux:जताई' chunkType='child:VGF' name='है'>
+23	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:जताई' posn='230' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="4">
+1	यह	PRP	<fs af='यह,pn,any,sg,3,d,0,0' drel='k1:है' posn='10' name='यह' chunkId='NP' chunkType='head:NP' cref='i12%1:t8' crefHead='यह:i12' crefChainHead='i12:t8'>
+2	प्रशासन	NN	<fs af='प्रशासन,n,m,sg,3,d,0,0' drel='ccof:और' posn='20' name='प्रशासन' chunkId='NP2' chunkType='head:NP2'>
+3	और	CC	<fs af='और,avy,,,,,,' drel='rs:दोनों' posn='30' name='और' chunkId='CCP' chunkType='head:CCP'>
+4	आयोग	NN	<fs af='आयोग,n,m,sg,3,d,0,0' drel='ccof:और' posn='40' name='आयोग' chunkId='NP3' chunkType='head:NP3' cref='i13%1:t6' crefHead='आयोग:i13' crefType='Coreference-Identity:i9'>
+5	दोनों	NN	<fs af='दो,n,m,pl,3,o,0_के_लिए,0' drel='rt:है' posn='50' vpos='vib_2_3' name='दोनों' chunkId='NP4' chunkType='head:NP4'>
+6	के	PSP	<fs af='के,psp,,,,,,' posn='60' drel='lwg__psp:दोनों' chunkType='child:NP4' name='के'>
+7	लिए	PSP	<fs af='लिए,psp,,,,,,' posn='70' drel='lwg__psp:दोनों' chunkType='child:NP4' name='लिए'>
+8	चुनौती	NN	<fs af='चुनौती,n,f,sg,3,d,0,0' drel='k1s:है' posn='80' name='चुनौती' chunkId='NP5' chunkType='head:NP5'>
+9	है	VM	<fs af='है,v,any,sg,3,,है,hE' stype='declarative' posn='90' voicetype='active' name='है' chunkId='VGF' chunkType='head:VGF'>
+10	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:है' posn='100' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="5">
+1	राज्य	NN	<fs af='राज्य,n,m,sg,3,o,0_का,0' drel='r6:विभाग' posn='10' vpos='vib_2' name='राज्य' chunkId='NP' chunkType='head:NP' cref='i14%1:t1' crefHead='राज्य:i14' crefType='Coreference-Noun-Noun:i5'>
+2	के	PSP	<fs af='का,psp,m,sg,,o,,' posn='20' drel='lwg__psp:राज्य' chunkType='child:NP' name='के'>
+3	गृह	NNPC	<fs af='गृह,n,m,sg,3,d,0,0' posn='30' drel='pof__cn:विभाग' chunkType='child:NP2' name='गृह'>
+4	विभाग	NNP	<fs af='विभाग,n,m,sg,3,o,0_का,0' drel='r6:सूत्रों' posn='40' vpos='vib_3' name='विभाग' chunkId='NP2' chunkType='head:NP2'>
+5	के	PSP	<fs af='का,psp,m,pl,,o,,' posn='50' drel='lwg__psp:विभाग' chunkType='child:NP2' name='के2'>
+6	सूत्रों	NN	<fs af='सूत्र,n,m,pl,3,o,0_ने,0' drel='k1:कहा' posn='60' vpos='vib_2' name='सूत्रों' chunkId='NP3' chunkType='head:NP3'>
+7	ने	PSP	<fs af='ने,psp,,,,,,' posn='70' drel='lwg__psp:सूत्रों' chunkType='child:NP3' name='ने'>
+8	कहा	VM	<fs af='कह,v,m,sg,3,,या_है,yA' stype='declarative' posn='80' voicetype='active' vpos='tam_2' name='कहा' chunkId='VGF' chunkType='head:VGF'>
+9	है	VAUX	<fs af='है,v,any,sg,3,,है,hE' posn='90' drel='lwg__vaux:कहा' chunkType='child:VGF' name='है'>
+10	कि	CC	<fs af='कि,avy,,,,,,' drel='k2:कहा' posn='100' name='कि' chunkId='CCP' chunkType='head:CCP'>
+11	खुफिया	NNPC	<fs af='खुफिया,n,f,sg,3,d,0,0' posn='110' drel='pof__cn:विभाग2' chunkType='child:NP4' name='खुफिया'>
+12	विभाग	NNP	<fs af='विभाग,n,m,sg,3,o,0_ने,0' drel='k1:जताई' posn='120' vpos='vib_3' name='विभाग2' chunkId='NP4' chunkType='head:NP4'>
+13	ने	PSP	<fs af='ने,psp,,,,,,' posn='130' drel='lwg__psp:विभाग2' chunkType='child:NP4' name='ने2'>
+14	नेपाली	JJ	<fs af='नेपाली,adj,any,any,,o,,' posn='140' drel='nmod__adj:विद्रोहियों' chunkType='child:NP5' name='नेपाली' cref='i15%0:t9'>
+15	माओवादी	JJ	<fs af='माओवादी,adj,any,any,,o,,' posn='150' drel='nmod__adj:विद्रोहियों' chunkType='child:NP5' name='माओवादी' cref='i15%0:t9'>
+16	विद्रोहियों	NN	<fs af='विद्रोही,n,m,pl,3,o,0_का,0' drel='r6:समर्थन' posn='160' vpos='vib_4' name='विद्रोहियों' chunkId='NP5' chunkType='head:NP5' cref='i15%1:t9' crefHead='विद्रोहियों:i15' crefChainHead='i15:t9' >
+17	के	PSP	<fs af='का,psp,m,sg,,o,,' posn='170' drel='lwg__psp:विद्रोहियों' chunkType='child:NP5' name='के3'>
+18	समर्थन	NN	<fs af='समर्थन,n,m,sg,3,o,0_से,0' drel='rh:जताई' posn='180' vpos='vib_2' name='समर्थन' chunkId='NP6' chunkType='head:NP6'>
+19	से	PSP	<fs af='से,psp,,,,,,' posn='190' drel='lwg__psp:समर्थन' chunkType='child:NP6' name='से'>
+20	इन	DEM	<fs af='यह,pn,any,pl,3,o,,' posn='200' drel='nmod__adj:क्षेत्रों' chunkType='child:NP7' name='इन' cref='i16%0:t7'>
+21	क्षेत्रों	NN	<fs af='क्षेत्र,n,m,pl,3,o,0_में,0' drel='k7:जताई' posn='210' vpos='vib_3' name='क्षेत्रों' chunkId='NP7' chunkType='head:NP7' cref='i16%1:t7' crefHead='क्षेत्रों:i16' crefType='Coreference-Identity:i11'>
+22	में	PSP	<fs af='में,psp,,,,,,' posn='220' drel='lwg__psp:क्षेत्रों' chunkType='child:NP7' name='में'>
+23	तीसरे	QO	<fs af='तीसरा,num,m,sg,,o,,' posn='230' drel='nmod__adj:चरण' chunkType='child:NP8' name='तीसरे'>
+24	चरण	NN	<fs af='चरण,n,m,sg,3,o,0_का,0' drel='r6:मतदान' posn='240' vpos='vib_3' name='चरण' chunkId='NP8' chunkType='head:NP8'>
+25	के	PSP	<fs af='का,psp,m,sg,,o,,' posn='250' drel='lwg__psp:चरण' chunkType='child:NP8' name='के4'>
+26	मतदान	NN	<fs af='मतदान,n,m,sg,3,o,0_के_दौरान,0' drel='k7p:जताई' posn='260' vpos='vib_2_3' name='मतदान' chunkId='NP9' chunkType='head:NP9'>
+27	के	PSP	<fs af='के,psp,,,,,,' posn='270' drel='lwg__psp:मतदान' chunkType='child:NP9' name='के5'>
+28	दौरान	NST	<fs af='दौरान,nst,m,sg,3,d,,' posn='280' drel='lwg__psp:मतदान' chunkType='child:NP9' name='दौरान'>
+29	भारी	JJ	<fs af='भारी,adj,any,any,,o,,' posn='290' drel='nmod__adj:हिंसा' chunkType='child:NP10' name='भारी'>
+30	हिंसा	NN	<fs af='हिंसा,n,f,sg,3,o,0_का,0' drel='r6:आशंका' posn='300' vpos='vib_3' name='हिंसा' chunkId='NP10' chunkType='head:NP10'>
+31	की	PSP	<fs af='का,psp,f,sg,,d,,' posn='310' drel='lwg__psp:हिंसा' chunkType='child:NP10' name='की'>
+32	आशंका	NN	<fs af='आशंका,n,f,sg,3,d,0,0' drel='pof:जताई' posn='320' name='आशंका' chunkId='NP11' chunkType='head:NP11'>
+33	जताई	VM	<fs af='जता,v,f,sg,3,,या_है,yA' drel='ccof:कि' stype='declarative' posn='330' voicetype='active' vpos='tam_2' name='जताई' chunkId='VGF2' chunkType='head:VGF2'>
+34	है	VAUX	<fs af='है,v,any,sg,3,,है,hE' posn='340' drel='lwg__vaux:जताई' chunkType='child:VGF2' name='है2'>
+35	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:कहा' posn='350' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="6">
+1	अधिकारियों	NN	<fs af='अधिकारी,n,m,pl,3,o,0_ने,0' drel='k1:कहा' posn='10' vpos='vib_2' name='अधिकारियों' chunkId='NP' chunkType='head:NP'>
+2	ने	PSP	<fs af='ने,psp,,,,,,' posn='20' drel='lwg__psp:अधिकारियों' chunkType='child:NP' name='ने'>
+3	कहा	VM	<fs af='कह,v,m,sg,any,,या,yA' stype='declarative' posn='30' voicetype='active' name='कहा' chunkId='VGF' chunkType='head:VGF'>
+4	कि	CC	<fs af='कि,avy,,,,,,' drel='k2:कहा' posn='40' name='कि' chunkId='CCP' chunkType='head:CCP'>
+5	कुछ	QF	<fs af='कुछ,avy,,,,,,' posn='50' drel='nmod__adj:महीने' chunkType='child:NP2' name='कुछ'>
+6	ही	RP	<fs af='ही,avy,,,,,,' posn='60' drel='lwg__rp:महीने' chunkType='child:NP2' name='ही'>
+7	महीने	NN	<fs af='महीना,n,m,pl,3,d,0_पहले,0' drel='k7t:किए' posn='70' vpos='vib_4' name='महीने' chunkId='NP2' chunkType='head:NP2'>
+8	पहले	NST	<fs af='पहले,nst,m,sg,3,d,,' posn='80' drel='lwg__psp:महीने' chunkType='child:NP2' name='पहले'>
+9	माओवादियों	NN	<fs af='माओवादी,n,m,pl,3,o,0_ने,0' drel='k1:किए' posn='90' vpos='vib_2' name='माओवादियों' chunkId='NP3' chunkType='head:NP3'>
+10	ने	PSP	<fs af='ने,psp,,,,,,' posn='100' drel='lwg__psp:माओवादियों' chunkType='child:NP3' name='ने2'>
+11	नेपाल	NNP	<fs af='नेपाल,n,m,sg,3,d,0,0' posn='110' drel='nmod__adj:सीमा' chunkType='child:NP4' name='नेपाल' cref='i17%1:t4' crefHead='नेपाल:i17' crefType='Coreference-Identity:i10'>
+12	सीमा	NN	<fs af='सीमा,n,f,sg,3,o,0_से,0' drel='k2:लगे' posn='120' vpos='vib_vib_3' name='सीमा' chunkId='NP4' chunkType='head:NP4'>
+13	से	PSP	<fs af='से,psp,,,,,,' posn='130' drel='lwg__psp:सीमा' chunkType='child:NP4' name='से'>
+14	लगे	VM	<fs af='लग,v,m,sg,any,,या,yA' drel='nmod__k1inv:ब्लॉक' posn='140' name='लगे' chunkId='VGNF' chunkType='head:VGNF'>
+15	मधुबन	NNP	<fs af='मधुबन,n,m,sg,3,d,0,0' posn='150' drel='nmod__adj:ब्लॉक' chunkType='child:NP5' name='मधुबन'>
+16	ब्लॉक	NN	<fs af='ब्लॉक,n,m,sg,3,o,0_के_अंतर्गत,0' drel='k7a:आने' posn='160' vpos='vib_vib_3_4' name='ब्लॉक' chunkId='NP5' chunkType='head:NP5'>
+17	के	PSP	<fs af='के,psp,,,,,,' posn='170' drel='lwg__psp:ब्लॉक' chunkType='child:NP5' name='के'>
+18	अंतर्गत	PSP	<fs af='अंतर्गत,psp,,,,,,' posn='180' drel='lwg__psp:ब्लॉक' chunkType='child:NP5' name='अंतर्गत'>
+19	आने	VM	<fs af='आ,v,any,sg,any,o,ना_वाला,nA' drel='nmod:स्टेशन' posn='190' vpos='tam_2' name='आने' chunkId='VGNN' chunkType='head:VGNN'>
+20	वाले	PSP	<fs af='वाला,psp,m,sg,,o,,' posn='200' drel='lwg__psp:आने' chunkType='child:VGNN' name='वाले'>
+21	पुलिस	NNC	<fs af='पुलिस,n,f,sg,3,d,0,0' posn='210' drel='pof__cn:स्टेशन' chunkType='child:NP6' name='पुलिस'>
+22	स्टेशन	NN	<fs af='स्टेशन,n,m,sg,3,o,0,0' drel='ccof:और' posn='220' name='स्टेशन' chunkId='NP6' chunkType='head:NP6'>
+23	,	SYM	<fs af='COMMA,punc,,,,,,' posn='230' drel='rsym:स्टेशन' chunkType='child:NP6' name=','>
+24	बैंक	NN	<fs af='बैंक,n,m,sg,3,o,0,0' drel='ccof:और' posn='240' name='बैंक' chunkId='NP7' chunkType='head:NP7'>
+25	और	CC	<fs af='और,avy,,,,,,' drel='k7p:किए' posn='250' name='और' chunkId='CCP2' chunkType='head:CCP2'>
+26	सरकारी	JJ	<fs af='सरकारी,adj,any,any,,o,,' posn='260' drel='nmod__adj:कार्यालयों' chunkType='child:NP8' name='सरकारी'>
+27	कार्यालयों	NN	<fs af='कार्यालय,n,m,pl,3,o,0_पर,0' drel='ccof:और' posn='270' vpos='vib_3' name='कार्यालयों' chunkId='NP8' chunkType='head:NP8'>
+28	पर	PSP	<fs af='पर,psp,,,,,,' posn='280' drel='lwg__psp:कार्यालयों' chunkType='child:NP8' name='पर'>
+29	हमले	NN	<fs af='हमला,n,m,pl,3,d,0,0' drel='pof:किए' posn='290' name='हमले' chunkId='NP9' chunkType='head:NP9'>
+30	किए	VM	<fs af='कर,v,m,pl,any,,या_था,yA' drel='ccof:कि' stype='declarative' posn='300' voicetype='active' vpos='tam_2' name='किए' chunkId='VGF2' chunkType='head:VGF2'>
+31	थे	VAUX	<fs af='था,v,m,pl,any,,था,WA' posn='310' drel='lwg__vaux:किए' chunkType='child:VGF2' name='थे'>
+32	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:कहा' posn='320' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="7">
+1	इन	DEM	<fs af='यह,pn,any,pl,3,o,,' posn='10' drel='nmod__adj:हमलों' chunkType='child:NP' name='इन'>
+2	हमलों	NN	<fs af='हमला,n,m,pl,3,o,0_में,0' drel='k7:मारे' posn='20' vpos='vib_3' name='हमलों' chunkId='NP' chunkType='head:NP'>
+3	में	PSP	<fs af='में,psp,,,,,,' posn='30' drel='lwg__psp:हमलों' chunkType='child:NP' name='में'>
+4	पुलिस	NN	<fs af='पुलिस,n,f,sg,3,o,0_का,0' drel='r6:जवान' posn='40' vpos='vib_2' name='पुलिस' chunkId='NP2' chunkType='head:NP2'>
+5	के	PSP	<fs af='का,psp,m,pl,,d,,' posn='50' drel='lwg__psp:पुलिस' chunkType='child:NP2' name='के'>
+6	कई	QF	<fs af='कई,avy,,,,,,' posn='60' drel='nmod__adj:जवान' chunkType='child:NP3' name='कई'>
+7	जवान	NN	<fs af='जवान,n,m,pl,3,d,0,0' drel='k2:मारे' posn='70' name='जवान' chunkId='NP3' chunkType='head:NP3'>
+8	मारे	VM	<fs af='मार,v,m,pl,any,,या_जा+या1_था,yA' stype='declarative' posn='80' voicetype='passive' vpos='tam_2_3' name='मारे' chunkId='VGF' chunkType='head:VGF'>
+9	गए	VAUX	<fs af='जा,v,m,pl,any,,या1,yA1' posn='90' drel='lwg__vaux:मारे' chunkType='child:VGF' name='गए'>
+10	थे	VAUX	<fs af='था,v,m,pl,any,,था,WA' posn='100' drel='lwg__vaux:मारे' chunkType='child:VGF' name='थे'>
+11	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:मारे' posn='110' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="8">
+1	यहाँ	PRP	<fs af='यहाँ,pn,,,,o,0_का,' drel='r6:छापामारों' posn='10' vpos='vib_2' name='यहाँ' chunkId='NP' chunkType='head:NP' cref='i18%1:t7' crefHead='यहाँ:i18' crefType='Anaphora-C:i16' acrefMod='m3%1:i19' acrefModHead='यहाँ:m3'>
+2	के	PSP	<fs af='का,psp,m,pl,,o,,' posn='20' drel='lwg__psp:यहाँ' chunkType='child:NP' name='के'>
+3	माओवादी	JJ	<fs af='माओवादी,adj,any,any,,o,,' posn='30' drel='nmod__adj:छापामारों' chunkType='child:NP2' name='माओवादी' cref='i19%0:t3'>
+4	छापामारों	NN	<fs af='छापामार,n,m,pl,3,o,0_को,0' drel='k4:मिलने' posn='40' vpos='vib_3' name='छापामारों' chunkId='NP2' chunkType='head:NP2' cref='i19%1:t3' crefHead='छापामारों:i19' crefChainHead='i19:t3' crefType='Coreference-Identity:i3' crefMod='m3:i19'>
+5	को	PSP	<fs af='को,psp,,,,,,' posn='50' drel='lwg__psp:छापामारों' chunkType='child:NP2' name='को'>
+6	नेपाल	NNP	<fs af='नेपाल,n,m,sg,3,o,0_का,0' drel='r6:विद्रोहियों' posn='60' vpos='vib_2' name='नेपाल' chunkId='NP3' chunkType='head:NP3' cref='i20%1:t4' crefHead='नेपाल:i20' crefType='Coreference-Identity:i17' acrefMod='m4%1:i21' acrefModHead='नेपाल:m4'>
+7	के	PSP	<fs af='का,psp,m,pl,,o,,' posn='70' drel='lwg__psp:नेपाल' chunkType='child:NP3' name='के2'>
+8	माओवादी	JJ	<fs af='माओवादी,adj,any,any,,o,,' posn='80' drel='nmod__adj:विद्रोहियों' chunkType='child:NP4' name='माओवादी2' cref='i21%0:t9'>
+9	विद्रोहियों	NN	<fs af='विद्रोही,n,m,pl,3,o,0_से,0' drel='k5:मिलने' posn='90' vpos='vib_3' name='विद्रोहियों' chunkId='NP4' chunkType='head:NP4' cref='i21%1:t9' crefHead='विद्रोहियों:i21' crefType='Coreference-Identity:i15' crefMod='m4:i21'>
+10	से	PSP	<fs af='से,psp,,,,,,' posn='100' drel='lwg__psp:विद्रोहियों' chunkType='child:NP4' name='से'>
+11	हर	QF	<fs af='हर,avy,,,,,,' posn='110' drel='nmod__adj:सहायता' chunkType='child:NP5' name='हर'>
+12	संभव	JJ	<fs af='संभव,adj,any,any,,d,,' posn='120' drel='nmod__adj:सहायता' chunkType='child:NP5' name='संभव'>
+13	सहायता	NN	<fs af='सहायता,n,f,sg,3,d,0,0' drel='k1:मिलने' posn='130' name='सहायता' chunkId='NP5' chunkType='head:NP5'>
+14	मिलने	VM	<fs af='मिल,v,any,sg,any,o,ना_का,nA' drel='r6:खबर' posn='140' vpos='tam_2' name='मिलने' chunkId='VGNN' chunkType='head:VGNN'>
+15	की	PSP	<fs af='का,psp,f,sg,,d,,' posn='150' drel='lwg__psp:मिलने' chunkType='child:VGNN' name='की'>
+16	भी	RP	<fs af='भी,avy,,,,,,' posn='160' drel='lwg__rp:मिलने' chunkType='child:VGNN' name='भी'>
+17	खबर	NN	<fs af='खबर,n,f,sg,3,d,0,0' drel='k1:है' posn='170' name='खबर' chunkId='NP6' chunkType='head:NP6'>
+18	है	VM	<fs af='है,v,any,sg,3,,है,hE' stype='declarative' posn='180' voicetype='active' name='है' chunkId='VGF' chunkType='head:VGF'>
+19	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:है' posn='190' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="9">
+1	अधिकारियों	NN	<fs af='अधिकारी,n,m,pl,3,o,0_ने,0' drel='k1:बताया' posn='10' vpos='vib_2' name='अधिकारियों' chunkId='NP' chunkType='head:NP'>
+2	ने	PSP	<fs af='ने,psp,,,,,,' posn='20' drel='lwg__psp:अधिकारियों' chunkType='child:NP' name='ने'>
+3	बताया	VM	<fs af='बता,v,m,sg,any,,या,yA' stype='declarative' posn='30' voicetype='active' name='बताया' chunkId='VGF' chunkType='head:VGF'>
+4	कि	CC	<fs af='कि,avy,,,,,,' drel='k2:बताया' posn='40' name='कि' chunkId='CCP' chunkType='head:CCP'>
+5	हिंसा	NN	<fs af='हिंसा,n,f,sg,3,o,0_का,0' drel='r6:घटना' posn='50' vpos='vib_2' name='हिंसा' chunkId='NP2' chunkType='head:NP2'>
+6	की	PSP	<fs af='का,psp,f,sg,,o,,' posn='60' drel='lwg__psp:हिंसा' chunkType='child:NP2' name='की'>
+7	घटना	NN	<fs af='घटना,n,f,sg,3,o,0_को,0' drel='k2:देने' posn='70' vpos='vib_2' name='घटना' chunkId='NP3' chunkType='head:NP3'>
+8	को	PSP	<fs af='को,psp,,,,,,' posn='80' drel='lwg__psp:घटना' chunkType='child:NP3' name='को'>
+9	अंजाम	NN	<fs af='अंजाम,n,m,sg,3,d,0,0' drel='pof:देने' posn='90' name='अंजाम' chunkId='NP4' chunkType='head:NP4'>
+10	देने	VM	<fs af='दे,v,any,sg,3,o,ना_के_बाद,nA' drel='k7t:भाग' posn='100' vpos='tam_2_3' name='देने' chunkId='VGNN' chunkType='head:VGNN'>
+11	के	PSP	<fs af='के,psp,,,,,,' posn='110' drel='lwg__psp:देने' chunkType='child:VGNN' name='के'>
+12	बाद	NST	<fs af='बाद,nst,m,sg,3,d,,' posn='120' drel='lwg__nst:देने' chunkType='child:VGNN' name='बाद'>
+13	ये	DEM	<fs af='यह,pn,any,pl,3,d,,' posn='130' drel='nmod__adj:छापामार' chunkType='child:NP5' name='ये' cref='i22%0:t3'>
+14	छापामार	NN	<fs af='छापामार,n,m,sg,3,d,0,0' drel='k1:भाग' posn='140' name='छापामार' chunkId='NP5' chunkType='head:NP5' cref='i22%1:t3' crefHead='छापामार:i22' crefType='Coreference-Identity:i19'>
+15	सीमा	NN	<fs af='सीमा,n,f,sg,3,d,0,0' drel='k2:कर' posn='150' name='सीमा' chunkId='NP6' chunkType='head:NP6'>
+16	पार	NN	<fs af='पार,n,m,sg,3,d,0,0' drel='pof:कर' posn='160' name='पार' chunkId='NP7' chunkType='head:NP7'>
+17	कर	VM	<fs af='कर,v,any,any,any,,0,0' drel='vmod:भाग' posn='170' name='कर' chunkId='VGNF' chunkType='head:VGNF'>
+18	नेपाल	NNP	<fs af='नेपाल,n,m,sg,3,d,0,0' drel='k2p:भाग' posn='180' name='नेपाल' chunkId='NP8' chunkType='head:NP8' cref='i23%1:t4' crefHead='नेपाल:i23' crefType='Coreference-Identity:i20'>
+19	भाग	VM	<fs af='भाग,v,m,pl,3,,0_जा+ता_है,0' drel='ccof:कि' stype='declarative' posn='190' voicetype='active' vpos='tam_2_3' name='भाग' chunkId='VGF2' chunkType='head:VGF2'>
+20	जाते	VAUX	<fs af='जा,v,m,pl,any,,ता,wA' posn='200' drel='lwg__vaux:भाग' chunkType='child:VGF2' name='जाते'>
+21	हैं	VAUX	<fs af='है,v,any,pl,3,,है,hE' posn='210' drel='lwg__vaux:भाग' chunkType='child:VGF2' name='हैं'>
+22	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:बताया' posn='220' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="10">
+1	तीसरे	QO	<fs af='तीसरा,num,m,sg,,o,,' posn='10' drel='nmod__adj:चरण' chunkType='child:NP' name='तीसरे'>
+2	चरण	NN	<fs af='चरण,n,m,sg,3,o,0_में,0' drel='k7:कराए' posn='20' vpos='vib_3' name='चरण' chunkId='NP' chunkType='head:NP'>
+3	में	PSP	<fs af='में,psp,,,,,,' posn='30' drel='lwg__psp:चरण' chunkType='child:NP' name='में'>
+4	72	QC	<fs af='72,num,any,any,,any,,' posn='40' drel='nmod__adj:क्षेत्रों' chunkType='child:NP2' name='72' cref='i24%0:t10'>
+5	विधान	NNC	<fs af='विधान,n,m,sg,3,d,0,0' posn='50' drel='pof__cn:सभा' chunkType='child:NP2' name='विधान' cref='i24%0:t10'>
+6	सभा	NN	<fs af='सभा,n,f,sg,3,d,0,0' posn='60' drel='nmod:क्षेत्रों' chunkType='child:NP2' name='सभा' cref='i24%0:t10'>
+7	क्षेत्रों	NN	<fs af='क्षेत्र,n,m,pl,3,o,0_में,0' drel='k7:कराए' posn='70' vpos='vib_vib_5' name='क्षेत्रों' chunkId='NP2' chunkType='head:NP2' cref='i24%1:t10' crefHead='क्षेत्रों:i24' crefChainHead='i24:t10'>
+8	में	PSP	<fs af='में,psp,,,,,,' posn='80' drel='lwg__psp:क्षेत्रों' chunkType='child:NP2' name='में2'>
+9	चुनाव	NN	<fs af='चुनाव,n,m,pl,3,d,0,0' drel='k2:कराए' posn='90' name='चुनाव' chunkId='NP3' chunkType='head:NP3'>
+10	कराए	VM	<fs af='करा,v,m,pl,3,,या_जा+गा,yA' stype='declarative' posn='100' voicetype='passive' vpos='tam_2' name='कराए' chunkId='VGF' chunkType='head:VGF'>
+11	जाएँगे	VAUX	<fs af='जा,v,m,pl,3,,गा,gA' posn='110' drel='lwg__vaux:कराए' chunkType='child:VGF' name='जाएँगे'>
+12	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:कराए' posn='120' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="11">
+1	इनमें	PRP	<fs af='यह,pn,any,pl,3,o,0_से,meM' drel='k5:हैं' posn='10' vpos='vib_2' name='इनमें' chunkId='NP' chunkType='head:NP' cref='i25%1:t10' crefHead='इनमें:i25' crefType='Anaphora-C:i24'>
+2	से	PSP	<fs af='से,psp,,,,,,' posn='20' drel='lwg__psp:इनमें' chunkType='child:NP' name='से'>
+3	आधे	QF	<fs af='आधा,adj,m,pl,,d,,' posn='30' drel='nmod__adj:क्षेत्र' chunkType='child:NP2' name='आधे'>
+4	क्षेत्र	NN	<fs af='क्षेत्र,n,m,pl,3,d,0,0' drel='k1:हैं' posn='40' name='क्षेत्र' chunkId='NP2' chunkType='head:NP2'>
+5	पूर्वी	JJ	<fs af='पूर्वी,adj,any,any,,d,,' drel='ccof:और' posn='50' name='पूर्वी' chunkId='JJP' chunkType='head:JJP'>
+6	और	CC	<fs af='और,avy,,,,,,' drel='nmod:चंपारण' posn='60' name='और' chunkId='CCP' chunkType='head:CCP'>
+7	पश्चिमी	JJ	<fs af='पश्चिमी,adj,any,any,,d,,' drel='ccof:और' posn='70' name='पश्चिमी' chunkId='JJP2' chunkType='head:JJP2'>
+8	चंपारण	NNP	<fs af='चंपारण,n,m,sg,3,d,0,0' drel='ccof:और2' posn='80' name='चंपारण' chunkId='NP3' chunkType='head:NP3'>
+9	,	SYM	<fs af='COMMA,punc,,,,,,' posn='90' drel='rsym:चंपारण' chunkType='child:NP3' name=','>
+10	सीतामढ़ी	NNP	<fs af='सीतामढ़ी,n,m,sg,3,d,0,0' drel='ccof:और2' posn='100' name='सीतामढ़ी' chunkId='NP4' chunkType='head:NP4'>
+11	और	CC	<fs af='और,avy,,,,,,' drel='nmod:जिले' posn='110' name='और2' chunkId='CCP2' chunkType='head:CCP2'>
+12	मधुबनी	NNP	<fs af='मधुबनी,n,m,sg,3,d,0,0' drel='ccof:और2' posn='120' name='मधुबनी' chunkId='NP5' chunkType='head:NP5'>
+13	जिले	NN	<fs af='जिला,n,m,sg,3,o,0_का,0' drel='r6:क्षेत्र2' posn='130' vpos='vib_2' name='जिले' chunkId='NP6' chunkType='head:NP6'>
+14	के	PSP	<fs af='का,psp,m,pl,,d,,' posn='140' drel='lwg__psp:जिले' chunkType='child:NP6' name='के'>
+15	सीमावर्ती	JJ	<fs af='सीमावर्ती,adj,any,any,,d,,' posn='150' drel='nmod__adj:क्षेत्र2' chunkType='child:NP7' name='सीमावर्ती'>
+16	क्षेत्र	NN	<fs af='क्षेत्र,n,m,pl,3,d,0,0' drel='k1s:हैं' posn='160' name='क्षेत्र2' chunkId='NP7' chunkType='head:NP7'>
+17	हैं	VM	<fs af='है,v,any,pl,3,,है,hE' stype='declarative' posn='170' voicetype='active' name='हैं' chunkId='VGF' chunkType='head:VGF'>
+18	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:हैं' posn='180' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+<Sentence id="12">
+1	गृह	NNC	<fs af='गृह,n,m,sg,3,d,0,0' posn='10' drel='pof__cn:सचिव' chunkType='child:NP' name='गृह'>
+2	सचिव	NN	<fs af='सचिव,n,m,sg,3,d,0,0' posn='20' drel='nmod:सिरोही' chunkType='child:NP' name='सचिव'>
+3	एच.	NNPC	<fs af='एच.,n,m,sg,3,d,0,0' posn='30' drel='pof__cn:सिरोही' chunkType='child:NP' name='एच.'>
+4	आर.	NNPC	<fs af='आर.,n,m,sg,3,d,0,0' posn='40' drel='pof__cn:सिरोही' chunkType='child:NP' name='आर.'>
+5	सिरोही	NNP	<fs af='सिरोही,n,m,sg,3,o,0_ने,0' drel='k1:कहा' posn='50' vpos='vib_vib_6' name='सिरोही' chunkId='NP' chunkType='head:NP'>
+6	ने	PSP	<fs af='ने,psp,,,,,,' posn='60' drel='lwg__psp:सिरोही' chunkType='child:NP' name='ने'>
+7	कहा	VM	<fs af='कह,v,m,sg,any,,या,yA' stype='declarative' posn='70' voicetype='active' name='कहा' chunkId='VGF' chunkType='head:VGF'>
+8	कि	CC	<fs af='कि,avy,,,,,,' drel='k2:कहा' posn='80' name='कि' chunkId='CCP' chunkType='head:CCP'>
+9	अति	INTF	<fs af='अति,avy,,,,,,' posn='90' drel='jjmod__intf:संवेदनशील' chunkType='child:NP2' name='अति'>
+10	संवेदनशील	JJ	<fs af='संवेदनशील,adj,any,any,,o,,' posn='100' drel='nmod__adj:क्षेत्रों' chunkType='child:NP2' name='संवेदनशील'>
+11	क्षेत्रों	NN	<fs af='क्षेत्र,n,m,pl,3,o,0_में,0' drel='k7p:किए' posn='110' vpos='vib_4' name='क्षेत्रों' chunkId='NP2' chunkType='head:NP2'>
+12	में	PSP	<fs af='में,psp,,,,,,' posn='120' drel='lwg__psp:क्षेत्रों' chunkType='child:NP2' name='में'>
+13	एनएसजी	NNP	<fs af='एनएसजी,n,m,sg,3,o,0_का,0' drel='r6:जवान' posn='130' vpos='vib_2' name='एनएसजी' chunkId='NP3' chunkType='head:NP3'>
+14	के	PSP	<fs af='का,psp,m,pl,,d,,' posn='140' drel='lwg__psp:एनएसजी' chunkType='child:NP3' name='के'>
+15	जवान	NN	<fs af='जवान,n,m,pl,3,d,0,0' drel='k2:किए' posn='150' name='जवान' chunkId='NP4' chunkType='head:NP4'>
+16	तैनात	JJ	<fs af='तैनात,adj,any,any,,,,' drel='pof:किए' posn='160' name='तैनात' chunkId='JJP' chunkType='head:JJP'>
+17	किए	VM	<fs af='कर,v,m,pl,3,,या_जा+गा,yA' drel='ccof:कि' stype='declarative' posn='170' voicetype='passive' vpos='tam_2' name='किए' chunkId='VGF2' chunkType='head:VGF2'>
+18	जाएँगे	VAUX	<fs af='जा,v,m,pl,3,,गा,gA' posn='180' drel='lwg__vaux:किए' chunkType='child:VGF2' name='जाएँगे'>
+19	।	SYM	<fs af='।,punc,,,,,,' drel='rsym:कहा' posn='190' name='।' chunkId='BLK' chunkType='head:BLK'>
+</Sentence>
+
+
+
+</text>
+</tb>
+</body>
+</document>
+
+0
+0
+0
