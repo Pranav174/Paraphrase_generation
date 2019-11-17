@@ -3,6 +3,7 @@ import os
 from ssf_api import *
 
 from functions.syn_antn import replace_synonyms, replace_antonyms
+from functions.re_arrange import re_arrange
 
 loli= 1
 for f in os.listdir("DATA/PROCESSED-DATA/collection/"):
@@ -22,7 +23,8 @@ for f in os.listdir("DATA/PROCESSED-DATA/collection/"):
     for sentence in var.sentenceList:
         # start = sentence.wordNumList[0]
         # end = sentence.wordNumList[-1]+1
-        answer = replace_antonyms(sentence, var.globalWordList, originals, False)
+        # answer = replace_antonyms(sentence, var.globalWordList, originals, False)
+        answer = re_arrange(sentence, var.globalWordList)
         if len(answer):
             print("original: ")
             for word in sentence.wordNumList:
