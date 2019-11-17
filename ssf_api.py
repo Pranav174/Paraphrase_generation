@@ -79,7 +79,6 @@ class Word():
         # print "-"*30,"new word- %s with tag - %s and f = %s"%(word,tag,features_string)
         self.wordTag=tag
         self.word=word
-        self.original=word
         #Have modified this, wont work in generic case
         self.featureSet=extra_features
         self.extraFeatureSet=extra_features
