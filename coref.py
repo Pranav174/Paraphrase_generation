@@ -2,7 +2,7 @@ import pickle
 import os
 from ssf_api import *
 
-from functions.syn_antn import replace_synonyms
+from functions.syn_antn import replace_synonyms, replace_antonyms
 
 loli= 1
 for f in os.listdir("DATA/PROCESSED-DATA/collection/"):
@@ -18,11 +18,11 @@ for f in os.listdir("DATA/PROCESSED-DATA/collection/"):
             originals.append(i.featureSet.featureDict['af'].split(',')[0])
         except:
             originals.append(i.word)
-        # print(i.word, originals[-1])
+
     for sentence in var.sentenceList:
-        start = sentence.wordNumList[0]
-        end = sentence.wordNumList[-1]+1
-        answer = replace_synonyms(sentence, var.globalWordList[start:end], originals[start:end], end-start)
+        # start = sentence.wordNumList[0]
+        # end = sentence.wordNumList[-1]+1
+        answer = replace_antonyms(sentence, var.globalWordList, originals, False)
         if len(answer):
             print("original: ")
             for word in sentence.wordNumList:
@@ -31,7 +31,9 @@ for f in os.listdir("DATA/PROCESSED-DATA/collection/"):
         for i,paraphrase in enumerate(answer):
             print(i,":")
             for word in paraphrase:
-                print(word.word, end=" ")
+                print(word, end=" ")
+            print()
+        if len(answer):
             print()
 
 
