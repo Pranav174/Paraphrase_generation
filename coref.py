@@ -4,11 +4,12 @@ from ssf_api import *
 
 from functions.syn_antn import replace_synonyms, replace_antonyms
 from functions.re_arrange import re_arrange
+from functions.active_to_passive import kritvachya_to_karmvachya
 
 loli= 1
 for f in os.listdir("DATA/PROCESSED-DATA/collection/"):
     loli +=1
-    if loli>30:
+    if loli>50:
         break
     ofile = open("DATA/PROCESSED-DATA/collection/" + f,"rb")
     var = pickle.load(ofile)
@@ -24,7 +25,8 @@ for f in os.listdir("DATA/PROCESSED-DATA/collection/"):
         # start = sentence.wordNumList[0]
         # end = sentence.wordNumList[-1]+1
         # answer = replace_antonyms(sentence, var.globalWordList, originals, False)
-        answer = re_arrange(sentence, var.globalWordList)
+        # answer = re_arrange(sentence, var.globalWordList)
+        answer = kritvachya_to_karmvachya(sentence, var.globalWordList, originals)
         if len(answer):
             print("original: ")
             for word in sentence.wordNumList:

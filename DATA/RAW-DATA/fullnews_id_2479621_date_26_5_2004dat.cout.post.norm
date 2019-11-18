@@ -162,7 +162,7 @@
 4	खंडपीठ	NN	<fs af='खंडपीठ,n,f,sg,3,o,0_ने,0' drel='k1:जानना' posn='40' vpos='vib_2' name='खंडपीठ' chunkId='NP2' chunkType='head:NP2' cref='i23%1:t6' crefHead='खंडपीठ:i23' crefType='Coreference-Identity:i10'>
 5	ने	PSP	<fs af='ने,psp,,,,,,' posn='50' drel='lwg__psp:खंडपीठ' chunkType='child:NP2' name='ने'>
 6	जानना	VM	<fs af='जान,v,any,any,any,d,ना,nA' stype='declarative' posn='60' voicetype='active' name='जानना' chunkId='VGF' chunkType='head:VGF'>
-7	है	VM	<fs af='है,v,any,sg,3,,है,hE' posn='70' drel='lwg__vm:जानना' chunkType='child:VGF' name='है'>
+7	है	VAUX	<fs af='है,v,any,sg,3,,है,hE' posn='70' drel='lwg__vaux:जानना' chunkType='child:VGF' name='है'>
 8	कि	CC	<fs af='कि,avy,,,,,,' drel='k2:जानना' posn='80' name='कि' chunkId='CCP' chunkType='head:CCP'>
 9	जब	PRP	<fs af='जब,pn,,,,d,,' drel='k7t:था' posn='90' coref=':NP10' name='जब' chunkId='NP3' chunkType='head:NP3' cref='i24%1:t11' crefHead='जब:i24' crefChainHead='i24:t11' crefType='anaphora-?:i24'>
 10	विशेष	JJ	<fs af='विशेष,adj,any,any,,o,,' posn='100' drel='nmod__adj:जज' chunkType='child:NP4' name='विशेष'>
