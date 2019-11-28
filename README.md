@@ -38,5 +38,12 @@ News Artices manually annotated in SSF format.
   * "जा" is added to verb. The verb phrases is then inflected for passive tense and K2 gender
 + Code: *functions/active_to_passive.py* 
 
-## How to run
+# How to run
 
+Python version 3.6 or above is required
+
+```
+pip install -r requirements.txt
+
+python runner.py
+```
