@@ -32,15 +32,15 @@ def re_arrange(sentence, word_list):
             break
 
     if replace_blk_root(sentence, word_list):
-        print_sentence(sentence, word_list)
-        print_dependency(sentence, word_list)
+        # print_sentence(sentence, word_list)
+        # print_dependency(sentence, word_list)
         root_node = 0
         for tag in sentence.nodeDict.keys():
             if sentence.nodeDict[tag].nodeParent == "None":
                 root_node = tag
                 break
         tree = build_tree(sentence,word_list,sentence.nodeDict[root_node].chunkNum)
-        print("tree_built")
+        print("tree_built (id-text-parent_id):")
         print_tree(tree, -1)
         paraphrases = []
         for i in range(5):
@@ -163,7 +163,7 @@ def build_tree(sentence, word_list, chunkNum):
 def print_tree(n, parent):
     for child in n.left:
         print_tree(child,n.chunkNum)
-    print("{} ({}) {}".format(n.chunkNum, n.text, parent))
+    print("{} ({}) {}".format(n.chunkNum, n.text.strip(), parent))
     for child in n.right:
         print_tree(child,n.chunkNum)
 

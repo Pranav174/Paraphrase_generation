@@ -10,7 +10,7 @@ def kritvachya_to_karmvachya(sentence,word_list,original):
     # print_sentence(sentence,word_list)
     possible = nodes_possible_to_be_changed(sentence,word_list,original)
     for poss in possible:
-        print(poss)
+        print("Verb k1 k2: " , poss)
         new_sentence = copy.deepcopy(sentence)
         new_wordlist = copy.deepcopy(word_list)
         # for word in new_sentence.chunkList[new_sentence.nodeDict[poss[1]].chunkNum].wordNumList:

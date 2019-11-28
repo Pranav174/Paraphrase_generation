@@ -20,9 +20,12 @@ def try_apply_morph(similar, original, addition, deletion):
         answer = re.sub(r"{deletion}".format(deletion=deletion), "", similar)
         original = re.sub(r"{deletion}".format(
             deletion=deletion), "", original)
-        if original[-1] == answer[-1] or ("\u0915" <= answer[-1] <= "\u0939" and "\u0915" <= original[-1] <= "\u0939"):
-            answer = answer + addition
-            return answer
+        if len(original) and len(answer):
+            if original[-1] == answer[-1] or ("\u0915" <= answer[-1] <= "\u0939" and "\u0915" <= original[-1] <= "\u0939"):
+                answer = answer + addition
+                return answer
+            else:
+                return similar
         else:
             return similar
     else:
@@ -60,14 +63,14 @@ def replace_synonyms(sentence, word_list, original_word_list, inflected):
                     replacement = try_apply_morph(
                         replacement, original_word_list[i], addition, deletion)
                     if(replacement != old):
-                        print("{} can be replaced by {}".format(old, replacement))
+                        print("{} can be inflected to {}".format(old, replacement))
                     if replacement != word_list[i].word:
                         paraphrases.append(
                             [word_list[word].word for word in sentence.wordNumList])
                         paraphrases[-1][i -
                                         sentence.wordNumList[0]] = replacement
                         print("replace {} ({}) with {}".format(
-                            original_word_list[i], word_list[i].wordTag, replacement))
+                            word_list[i].word, word_list[i].wordTag, replacement))
                 break
     return paraphrases
 
@@ -97,7 +100,7 @@ def replace_antonyms(sentence, word_list, original_word_list, inflected):
             chunk = sentence.chunkList[word_list[i].chunkNum]
             node = sentence.nodeDict[chunk.nodeName]
             print("found {} in chunk ({} {} {})".format(
-                original_word_list[i], chunk.chunkTag, chunk.nodeName, node.nodeRelation))
+                word_list[i].word, chunk.chunkTag, chunk.nodeName, node.nodeRelation))
             # print_tree(sentence, word_list, node.nodeName)
             ccof_otw = False
             temp_node = node.nodeName
@@ -128,7 +131,7 @@ def replace_antonyms(sentence, word_list, original_word_list, inflected):
                 old = replacement
                 replacement = try_apply_morph(replacement, original_word_list[i], addition, deletion)
                 if(replacement != old):
-                    print("{} can be replaced by {}".format(old, replacement))
+                    print("{} can be inflected to {}".format(old, replacement))
                 paraphrases.append([word_list[word].word for word in sentence.wordNumList])
                 paraphrases[-1][i - sentence.wordNumList[0]] = replacement
                 if already_negative:
