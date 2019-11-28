@@ -169,14 +169,16 @@ def print_tree(n, parent):
 
 
 def generate_random_paraphrase(tree):
-    random.shuffle(tree.left)
-    random.shuffle(tree.right)
+    final = tree.left + tree.right
+    # random.shuffle(tree.left)
+    # random.shuffle(tree.right)
+    random.shuffle(final)
     text=""
-    for x in tree.left:
-        text += " " + generate_random_paraphrase(x)
+    for i in range(len(tree.left)):
+        text += " " + generate_random_paraphrase(final[i])
     text += " " + tree.text
-    for x in tree.right:
-        text += " " + generate_random_paraphrase(x)
+    for i in range(len(tree.right)):
+        text += " " + generate_random_paraphrase(final[i+len(tree.left)])
     text = re.sub(' +', ' ', text)
     return text.strip()
     
