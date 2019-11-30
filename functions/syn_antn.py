@@ -62,15 +62,15 @@ def replace_synonyms(sentence, word_list, original_word_list, inflected):
                     old = replacement
                     replacement = try_apply_morph(
                         replacement, original_word_list[i], addition, deletion)
-                    if(replacement != old):
-                        print("{} can be inflected to {}".format(old, replacement))
+                    if inflected:
+                        if replacement != old:
+                            print("{} can be inflected to {}".format(old, replacement))
+                        else:
+                            continue
                     if replacement != word_list[i].word:
-                        paraphrases.append(
-                            [word_list[word].word for word in sentence.wordNumList])
-                        paraphrases[-1][i -
-                                        sentence.wordNumList[0]] = replacement
-                        print("replace {} ({}) with {}".format(
-                            word_list[i].word, word_list[i].wordTag, replacement))
+                        paraphrases.append([word_list[word].word for word in sentence.wordNumList])
+                        paraphrases[-1][i - sentence.wordNumList[0]] = replacement
+                        print("replace {} ({}) with {}".format(word_list[i].word, word_list[i].wordTag, replacement))
                 break
     return paraphrases
 
@@ -130,8 +130,11 @@ def replace_antonyms(sentence, word_list, original_word_list, inflected):
             for replacement in vilom_shabds[original_word_list[i]]:
                 old = replacement
                 replacement = try_apply_morph(replacement, original_word_list[i], addition, deletion)
-                if(replacement != old):
-                    print("{} can be inflected to {}".format(old, replacement))
+                if inflected:
+                    if replacement != old:
+                        print("{} can be inflected to {}".format(old, replacement))
+                    else:
+                        continue
                 paraphrases.append([word_list[word].word for word in sentence.wordNumList])
                 paraphrases[-1][i - sentence.wordNumList[0]] = replacement
                 if already_negative:
